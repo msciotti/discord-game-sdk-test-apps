@@ -694,6 +694,7 @@ namespace Discord
 
         public ResultException(Result result) : base(result.ToString())
         {
+            Result = result;
         }
     }
 
